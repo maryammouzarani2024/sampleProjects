@@ -1,0 +1,41 @@
+
+{% extends "layout.html" %}
+   
+{% block content %}
+<h2>New course</h2>
+
+<div class="container">
+    <form name="course" action="" method="post" novalidate>
+        {{form.hidden_tag()}} <!-- csrf token   --> 
+        <p>    
+            {{ form.title.label }}<br>
+            {{form.title(size=35)}} <!-- max input len=35   --> 
+            {% for error in form.title.errors %}
+                <span class="error-message" >{{error}} </span>
+            {% endfor %}
+        </p>
+        <p>    
+            {{ form.description.label }}<br>
+            {{form.description(size=35)}} <!-- max input len=35   --> 
+            {% for error in form.description.errors %}
+                <span class="error-message" >{{error}} </span>
+            {% endfor %}
+        </p>
+        <p>    
+            {{ form.credit.label }}<br>
+            {{form.credit(size=35)}} <!-- max input len=35   --> 
+            {% for error in form.credit.errors %}
+                <span class="error-message" >{{error}} </span>
+            {% endfor %}
+        </p>
+        <p>    
+            {{ form.term.label }}<br>
+            {{form.term(size=35)}} <!-- max input len=35   --> 
+            {% for error in form.term.errors %}
+                <span class="error-message" >{{error}} </span>
+            {% endfor %}
+        </p>
+            {{form.submit}}
+    </form>
+</div>
+{% endblock %}

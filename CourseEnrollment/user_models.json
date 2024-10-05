@@ -1,0 +1,37 @@
+[
+    {
+      "user_id": "583c3ac3f38e84297c002546",
+       "first_name":"john",
+       "last_name":"dough" ,
+       "email":"something@aaa.com",
+       "password": "123456"
+    },
+    {
+        "user_id": "583c3ac3f38e84297c002547",
+         "first_name":"ana",
+         "last_name":"dough" ,
+         "email":"something@aaa.com",
+         "password": "123456"
+      },
+      {
+        "user_id": "583c3ac3f38e84297c002548",
+         "first_name":"nina",
+         "last_name":"dough" ,
+         "email":"something@aaa.com",
+         "password": "123456"
+      },
+      {
+        "user_id": "583c3ac3f38e84297c002549",
+         "first_name":"mati",
+         "last_name":"dough" ,
+         "email":"something@aaa.com",
+         "password": "123456"
+      },
+      {
+        "user_id": "583c3ac3f38e84297c0025400",
+         "first_name":"alex",
+         "last_name":"dough" ,
+         "email":"something@aaa.com",
+         "password": "123456"
+      }
+  ]
